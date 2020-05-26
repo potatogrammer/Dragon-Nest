@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2816C42B23F6756100547524 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2816C42A23F6756100547524 /* HomeViewController.swift */; };
+		2816C42D23F688D200547524 /* makeRequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2816C42C23F688D200547524 /* makeRequestViewController.swift */; };
+		284AE7E623F2FA85007DD47A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284AE7E523F2FA85007DD47A /* LoginViewController.swift */; };
+		284AE7E823F2FBB9007DD47A /* PersonalInforController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284AE7E723F2FBB9007DD47A /* PersonalInforController.swift */; };
+		284AE7EA23F2FBE7007DD47A /* RequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284AE7E923F2FBE7007DD47A /* RequestViewController.swift */; };
+		284AE7EC23F2FC00007DD47A /* MatchingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284AE7EB23F2FC00007DD47A /* MatchingViewController.swift */; };
+		28B5C2BA24081E1C0047A5D4 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B5C2B924081E1C0047A5D4 /* Request.swift */; };
+		28B5C2BC24083BDB0047A5D4 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B5C2BB24083BDB0047A5D4 /* TestViewController.swift */; };
+		28CE0D4723FA6C6D001058F3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 28CE0D4623FA6C6D001058F3 /* GoogleService-Info.plist */; };
+		28FA5C0A23EE5E52005A7D74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FA5C0923EE5E52005A7D74 /* AppDelegate.swift */; };
+		28FA5C0C23EE5E52005A7D74 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FA5C0B23EE5E52005A7D74 /* SceneDelegate.swift */; };
+		28FA5C0E23EE5E52005A7D74 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FA5C0D23EE5E52005A7D74 /* ViewController.swift */; };
+		28FA5C1123EE5E52005A7D74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28FA5C0F23EE5E52005A7D74 /* Main.storyboard */; };
+		28FA5C1323EE5E54005A7D74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28FA5C1223EE5E54005A7D74 /* Assets.xcassets */; };
+		28FA5C1623EE5E54005A7D74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28FA5C1423EE5E54005A7D74 /* LaunchScreen.storyboard */; };
+		D43ECF8B547ED130F3A59C8C /* libPods-DragonNest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB6366339D16B1FA4B8D7C0D /* libPods-DragonNest.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2816C42A23F6756100547524 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		2816C42C23F688D200547524 /* makeRequestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = makeRequestViewController.swift; sourceTree = "<group>"; };
+		284AE7E523F2FA85007DD47A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		284AE7E723F2FBB9007DD47A /* PersonalInforController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalInforController.swift; sourceTree = "<group>"; };
+		284AE7E923F2FBE7007DD47A /* RequestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestViewController.swift; sourceTree = "<group>"; };
+		284AE7EB23F2FC00007DD47A /* MatchingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchingViewController.swift; sourceTree = "<group>"; };
+		28B5C2B924081E1C0047A5D4 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		28B5C2BB24083BDB0047A5D4 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		28CE0D4623FA6C6D001058F3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		28FA5C0623EE5E52005A7D74 /* DragonNest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DragonNest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28FA5C0923EE5E52005A7D74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		28FA5C0B23EE5E52005A7D74 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		28FA5C0D23EE5E52005A7D74 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		28FA5C1023EE5E52005A7D74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		28FA5C1223EE5E54005A7D74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		28FA5C1523EE5E54005A7D74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		28FA5C1723EE5E54005A7D74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91CE213808AA5E4DF0274B0B /* Pods-DragonNest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DragonNest.release.xcconfig"; path = "Target Support Files/Pods-DragonNest/Pods-DragonNest.release.xcconfig"; sourceTree = "<group>"; };
+		BB6366339D16B1FA4B8D7C0D /* libPods-DragonNest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DragonNest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C513924F2D09F7C58BA7D038 /* Pods-DragonNest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DragonNest.debug.xcconfig"; path = "Target Support Files/Pods-DragonNest/Pods-DragonNest.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28FA5C0323EE5E52005A7D74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D43ECF8B547ED130F3A59C8C /* libPods-DragonNest.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26930EC271EAEE73C12869E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BB6366339D16B1FA4B8D7C0D /* libPods-DragonNest.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		284AE7E423F2F9B4007DD47A /* View Controllelrs */ = {
+			isa = PBXGroup;
+			children = (
+				28FA5C0D23EE5E52005A7D74 /* ViewController.swift */,
+				284AE7E523F2FA85007DD47A /* LoginViewController.swift */,
+				284AE7E723F2FBB9007DD47A /* PersonalInforController.swift */,
+				284AE7E923F2FBE7007DD47A /* RequestViewController.swift */,
+				284AE7EB23F2FC00007DD47A /* MatchingViewController.swift */,
+				2816C42A23F6756100547524 /* HomeViewController.swift */,
+				2816C42C23F688D200547524 /* makeRequestViewController.swift */,
+				28B5C2BB24083BDB0047A5D4 /* TestViewController.swift */,
+			);
+			name = "View Controllelrs";
+			sourceTree = "<group>";
+		};
+		28FA5BFD23EE5E52005A7D74 = {
+			isa = PBXGroup;
+			children = (
+				28FA5C0823EE5E52005A7D74 /* DragonNest */,
+				28FA5C0723EE5E52005A7D74 /* Products */,
+				6DDC8B30172A60337EBD7DD0 /* Pods */,
+				26930EC271EAEE73C12869E0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		28FA5C0723EE5E52005A7D74 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28FA5C0623EE5E52005A7D74 /* DragonNest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28FA5C0823EE5E52005A7D74 /* DragonNest */ = {
+			isa = PBXGroup;
+			children = (
+				284AE7E423F2F9B4007DD47A /* View Controllelrs */,
+				28FA5C0923EE5E52005A7D74 /* AppDelegate.swift */,
+				28FA5C0B23EE5E52005A7D74 /* SceneDelegate.swift */,
+				28FA5C0F23EE5E52005A7D74 /* Main.storyboard */,
+				28FA5C1223EE5E54005A7D74 /* Assets.xcassets */,
+				28FA5C1423EE5E54005A7D74 /* LaunchScreen.storyboard */,
+				28FA5C1723EE5E54005A7D74 /* Info.plist */,
+				28CE0D4623FA6C6D001058F3 /* GoogleService-Info.plist */,
+				28B5C2B924081E1C0047A5D4 /* Request.swift */,
+			);
+			path = DragonNest;
+			sourceTree = "<group>";
+		};
+		6DDC8B30172A60337EBD7DD0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C513924F2D09F7C58BA7D038 /* Pods-DragonNest.debug.xcconfig */,
+				91CE213808AA5E4DF0274B0B /* Pods-DragonNest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28FA5C0523EE5E52005A7D74 /* DragonNest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28FA5C1A23EE5E54005A7D74 /* Build configuration list for PBXNativeTarget "DragonNest" */;
+			buildPhases = (
+				6E364B6F6DC5121A256381FE /* [CP] Check Pods Manifest.lock */,
+				28FA5C0223EE5E52005A7D74 /* Sources */,
+				28FA5C0323EE5E52005A7D74 /* Frameworks */,
+				28FA5C0423EE5E52005A7D74 /* Resources */,
+				9678926EAA13157FF8F82497 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DragonNest;
+			productName = DragonNest;
+			productReference = 28FA5C0623EE5E52005A7D74 /* DragonNest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28FA5BFE23EE5E52005A7D74 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = CI4;
+				TargetAttributes = {
+					28FA5C0523EE5E52005A7D74 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 28FA5C0123EE5E52005A7D74 /* Build configuration list for PBXProject "DragonNest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 28FA5BFD23EE5E52005A7D74;
+			productRefGroup = 28FA5C0723EE5E52005A7D74 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28FA5C0523EE5E52005A7D74 /* DragonNest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28FA5C0423EE5E52005A7D74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28FA5C1623EE5E54005A7D74 /* LaunchScreen.storyboard in Resources */,
+				28CE0D4723FA6C6D001058F3 /* GoogleService-Info.plist in Resources */,
+				28FA5C1323EE5E54005A7D74 /* Assets.xcassets in Resources */,
+				28FA5C1123EE5E52005A7D74 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6E364B6F6DC5121A256381FE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DragonNest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9678926EAA13157FF8F82497 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DragonNest/Pods-DragonNest-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DragonNest/Pods-DragonNest-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DragonNest/Pods-DragonNest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28FA5C0223EE5E52005A7D74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				284AE7E623F2FA85007DD47A /* LoginViewController.swift in Sources */,
+				2816C42D23F688D200547524 /* makeRequestViewController.swift in Sources */,
+				28B5C2BC24083BDB0047A5D4 /* TestViewController.swift in Sources */,
+				284AE7E823F2FBB9007DD47A /* PersonalInforController.swift in Sources */,
+				284AE7EC23F2FC00007DD47A /* MatchingViewController.swift in Sources */,
+				28B5C2BA24081E1C0047A5D4 /* Request.swift in Sources */,
+				2816C42B23F6756100547524 /* HomeViewController.swift in Sources */,
+				284AE7EA23F2FBE7007DD47A /* RequestViewController.swift in Sources */,
+				28FA5C0E23EE5E52005A7D74 /* ViewController.swift in Sources */,
+				28FA5C0A23EE5E52005A7D74 /* AppDelegate.swift in Sources */,
+				28FA5C0C23EE5E52005A7D74 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		28FA5C0F23EE5E52005A7D74 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28FA5C1023EE5E52005A7D74 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		28FA5C1423EE5E54005A7D74 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28FA5C1523EE5E54005A7D74 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		28FA5C1823EE5E54005A7D74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		28FA5C1923EE5E54005A7D74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		28FA5C1B23EE5E54005A7D74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C513924F2D09F7C58BA7D038 /* Pods-DragonNest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 34A9F59M87;
+				INFOPLIST_FILE = DragonNest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.CI4BDHN.DragonNest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		28FA5C1C23EE5E54005A7D74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91CE213808AA5E4DF0274B0B /* Pods-DragonNest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 34A9F59M87;
+				INFOPLIST_FILE = DragonNest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.CI4BDHN.DragonNest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28FA5C0123EE5E52005A7D74 /* Build configuration list for PBXProject "DragonNest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28FA5C1823EE5E54005A7D74 /* Debug */,
+				28FA5C1923EE5E54005A7D74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28FA5C1A23EE5E54005A7D74 /* Build configuration list for PBXNativeTarget "DragonNest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28FA5C1B23EE5E54005A7D74 /* Debug */,
+				28FA5C1C23EE5E54005A7D74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 28FA5BFE23EE5E52005A7D74 /* Project object */;
+}
